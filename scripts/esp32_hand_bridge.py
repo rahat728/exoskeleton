@@ -1,4 +1,18 @@
 #!/usr/bin/env python3
+# Copyright 2026 Open Source Robotics Foundation, Inc.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 
 import time
 from urllib.error import URLError, HTTPError
@@ -17,17 +31,52 @@ class ESP32HandBridge(Node):
         self.declare_parameter('rate', 10.0)
         self.declare_parameter('timeout', 1.0)
 
-        self.esp32_ip = self.get_parameter('esp32_ip').get_parameter_value().string_value
-        self.rate_hz = self.get_parameter('rate').get_parameter_value().double_value
-        self.timeout = self.get_parameter('timeout').get_parameter_value().double_value
+        self.esp32_ip = (
+            self.get_parameter('esp32_ip').get_parameter_value().string_value
+        )
+        self.rate_hz = (
+            self.get_parameter('rate').get_parameter_value().double_value
+        )
+        self.timeout = (
+            self.get_parameter('timeout').get_parameter_value().double_value
+        )
 
-        # joint name -> (servo_num, rad_min, rad_max, invert)
         self.mapping = [
-            {'joint': 'thumb_joint1', 'servo': 1, 'rmin': -1.2, 'rmax': 1.6, 'invert': False},
-            {'joint': 'index_joint1', 'servo': 2, 'rmin': -1.2, 'rmax': 1.6, 'invert': False},
-            {'joint': 'finger2_joint1', 'servo': 3, 'rmin': -1.2, 'rmax': 1.6, 'invert': False},
-            {'joint': 'finger3_joint1', 'servo': 4, 'rmin': -1.2, 'rmax': 1.6, 'invert': False},
-            {'joint': 'finger4_joint1', 'servo': 5, 'rmin': -1.2, 'rmax': 1.6, 'invert': False},
+            {
+                'joint': 'thumb_joint1',
+                'servo': 1,
+                'rmin': -1.2,
+                'rmax': 1.6,
+                'invert': False,
+            },
+            {
+                'joint': 'index_joint1',
+                'servo': 2,
+                'rmin': -1.2,
+                'rmax': 1.6,
+                'invert': False,
+            },
+            {
+                'joint': 'finger2_joint1',
+                'servo': 3,
+                'rmin': -1.2,
+                'rmax': 1.6,
+                'invert': False,
+            },
+            {
+                'joint': 'finger3_joint1',
+                'servo': 4,
+                'rmin': -1.2,
+                'rmax': 1.6,
+                'invert': False,
+            },
+            {
+                'joint': 'finger4_joint1',
+                'servo': 5,
+                'rmin': -1.2,
+                'rmax': 1.6,
+                'invert': False,
+            },
         ]
 
         self.servo_limits = {
@@ -38,11 +87,16 @@ class ESP32HandBridge(Node):
             5: (80, 180),
         }
 
-        self.create_subscription(JointState, '/joint_states', self.joint_cb, 10)
+        self.create_subscription(
+            JointState,
+            '/joint_states',
+            self.joint_cb,
+            10
+        )
         self.create_timer(1.0 / self.rate_hz, self.timer_cb)
         self.targets = {}
         self.last_send = 0.0
-        self.get_logger().info(f'ESP32 hand bridge ready: ip={self.esp32_ip}, rate={self.rate_hz}Hz')
+        self.get_logger().info('bridge ready')
 
     def rad_to_deg(self, rad, rmin, rmax, invert=False):
         if rad < rmin:
@@ -50,7 +104,10 @@ class ESP32HandBridge(Node):
         if rad > rmax:
             rad = rmax
         span = rmax - rmin
-        t = (rad - rmin) / span if span > 0 else 0.5
+        if span <= 0:
+            t = 0.5
+        else:
+            t = (rad - rmin) / span
         deg = t * 180.0
         if invert:
             deg = 180.0 - deg
@@ -69,7 +126,7 @@ class ESP32HandBridge(Node):
                 resp.read()
             return True
         except (URLError, HTTPError) as e:
-            self.get_logger().warn(f'Failed to send {url}: {e}')
+            self.get_logger().warn(f'Failed to send: {e}')
             return False
 
     def joint_cb(self, msg: JointState):
