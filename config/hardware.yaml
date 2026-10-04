@@ -1,0 +1,45 @@
+hardware_bridge:
+  ros__parameters:
+    esp32_host: "192.168.0.173"
+    esp32_port: 80
+    poll_hz: 20.0
+    command_hz: 20.0
+    request_timeout_sec: 0.25
+    center_deg: 90.0
+    invert: false
+    servos:
+      - id: 1
+        name: thumb
+        driven_joint: thumb_joint1
+        min_deg: 80
+        max_deg: 180
+        mimic_joints: ["thumb_joint2", "thumb_joint3"]
+        mimic_multipliers: [1.0, 0.7]
+      - id: 2
+        name: index
+        driven_joint: index_joint1
+        min_deg: 0
+        max_deg: 100
+        mimic_joints: ["index_joint2", "index_joint3"]
+        mimic_multipliers: [1.0, 0.7]
+      - id: 3
+        name: finger2
+        driven_joint: finger2_joint1
+        min_deg: 80
+        max_deg: 180
+        mimic_joints: ["finger2_joint2", "finger2_joint3"]
+        mimic_multipliers: [1.0, 0.7]
+      - id: 4
+        name: finger3
+        driven_joint: finger3_joint1
+        min_deg: 30
+        max_deg: 130
+        mimic_joints: ["finger3_joint2", "finger3_joint3"]
+        mimic_multipliers: [1.0, 0.7]
+      - id: 5
+        name: finger4
+        driven_joint: finger4_joint1
+        min_deg: 80
+        max_deg: 180
+        mimic_joints: ["finger4_joint2", "finger4_joint3"]
+        mimic_multipliers: [1.0, 0.7]

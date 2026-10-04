@@ -4,12 +4,12 @@
   <link name="base_link">
     <visual>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/BASE.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/BASE.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/BASE.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/BASE.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <inertial>
@@ -21,12 +21,12 @@
   <link name="wrist_link">
     <visual>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/WRIST%20STARP.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/WRIST%20STARP.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/WRIST%20STARP.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/WRIST%20STARP.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <inertial>
@@ -44,13 +44,13 @@
     <visual>
       <origin xyz="-0.001000 -0.000939 -0.000938"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/thumb/a1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/thumb/a1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.001000 -0.000939 -0.000938"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/thumb/a1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/thumb/a1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <inertial>
@@ -63,25 +63,25 @@
     <visual>
       <origin xyz="-0.038021 -0.059955 -0.134439"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/thumb/a2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/thumb/a2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.038021 -0.059955 -0.134439"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/thumb/a2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/thumb/a2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.038021 -0.059955 -0.134439"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/thumb/b1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/thumb/b1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.038021 -0.059955 -0.134439"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/thumb/b1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/thumb/b1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <inertial>
@@ -94,25 +94,25 @@
     <visual>
       <origin xyz="-0.035624 -0.045401 -0.167639"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/thumb/c1.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/thumb/c1.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.035624 -0.045401 -0.167639"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/thumb/c1.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/thumb/c1.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.035624 -0.045401 -0.167639"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/thumb/c1.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/thumb/c1.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.035624 -0.045401 -0.167639"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/thumb/c1.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/thumb/c1.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <inertial>
@@ -125,97 +125,97 @@
     <visual>
       <origin xyz="-0.048697 -0.040213 -0.182739"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/thumb/a3.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/thumb/a3.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.048697 -0.040213 -0.182739"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/thumb/a3.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/thumb/a3.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.048697 -0.040213 -0.182739"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/thumb/a3.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/thumb/a3.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.048697 -0.040213 -0.182739"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/thumb/a3.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/thumb/a3.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.048694 -0.040213 -0.182736"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/thumb/a4.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/thumb/a4.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.048694 -0.040213 -0.182736"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/thumb/a4.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/thumb/a4.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.048694 -0.040214 -0.182736"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/thumb/a4.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/thumb/a4.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.048694 -0.040214 -0.182736"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/thumb/a4.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/thumb/a4.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.048697 -0.040213 -0.182739"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/thumb/b2.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/thumb/b2.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.048697 -0.040213 -0.182739"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/thumb/b2.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/thumb/b2.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.048697 -0.040213 -0.182739"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/thumb/b2.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/thumb/b2.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.048697 -0.040213 -0.182739"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/thumb/b2.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/thumb/b2.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.048697 -0.040213 -0.182739"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/thumb/c2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/thumb/c2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.048697 -0.040213 -0.182739"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/thumb/c2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/thumb/c2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.048697 -0.040213 -0.182797"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/thumb/c3.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/thumb/c3.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.048697 -0.040213 -0.182797"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/thumb/c3.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/thumb/c3.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <inertial>
@@ -260,13 +260,13 @@
     <visual>
       <origin xyz="-0.001000 -0.001000 -0.001000"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/INDEX%201.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/INDEX%201.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.001000 -0.001000 -0.001000"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/INDEX%201.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/INDEX%201.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <inertial>
@@ -279,49 +279,49 @@
     <visual>
       <origin xyz="-0.069208 -0.108577 -0.153598"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/INDEX%202.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/INDEX%202.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.069208 -0.108577 -0.153598"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/INDEX%202.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/INDEX%202.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.069208 -0.108580 -0.153600"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/finger%201.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/finger%201.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.069208 -0.108580 -0.153600"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/finger%201.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/finger%201.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.069208 -0.108580 -0.153600"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/finger%201.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/finger%201.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.069208 -0.108580 -0.153600"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/finger%201.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/finger%201.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.069208 -0.108578 -0.153599"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/support%201.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/support%201.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.069208 -0.108578 -0.153599"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/support%201.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/support%201.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <inertial>
@@ -334,61 +334,61 @@
     <visual>
       <origin xyz="-0.070559 -0.099905 -0.201400"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/INDEX%203.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/INDEX%203.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.070559 -0.099905 -0.201400"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/INDEX%203.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/INDEX%203.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.070559 -0.099905 -0.201400"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/INDEX%203.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/INDEX%203.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.070559 -0.099905 -0.201400"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/INDEX%203.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/INDEX%203.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.070559 -0.099905 -0.201400"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/finger%202.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/finger%202.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.070559 -0.099905 -0.201400"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/finger%202.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/finger%202.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.070559 -0.099905 -0.201400"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/support%202.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/support%202.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.070559 -0.099905 -0.201400"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/support%202.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/support%202.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.070559 -0.099905 -0.201400"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/support%202.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/support%202.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.070559 -0.099905 -0.201400"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/support%202.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/support%202.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <inertial>
@@ -401,85 +401,85 @@
     <visual>
       <origin xyz="-0.070526 -0.095897 -0.228400"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/INDEX%204.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/INDEX%204.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.070526 -0.095897 -0.228400"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/INDEX%204.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/INDEX%204.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.070526 -0.095897 -0.228400"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/INDEX%205.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/INDEX%205.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.070526 -0.095897 -0.228400"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/INDEX%205.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/INDEX%205.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.070526 -0.095897 -0.228400"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/INDEX%205.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/INDEX%205.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.070526 -0.095897 -0.228400"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/INDEX%205.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/INDEX%205.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.070526 -0.095897 -0.228400"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/finger%203.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/finger%203.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.070526 -0.095897 -0.228400"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/finger%203.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/finger%203.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.070526 -0.095897 -0.228400"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/finger%204.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/finger%204.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.070526 -0.095897 -0.228400"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/finger%204.STL" scale="0.001 0.001 0.001"/>
-      </geometry>
-    </collision>
-    <visual>
-      <origin xyz="-0.070526 -0.095898 -0.228400"/>
-      <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/support%203.1.STL" scale="0.001 0.001 0.001"/>
-      </geometry>
-    </visual>
-    <collision>
-      <origin xyz="-0.070526 -0.095898 -0.228400"/>
-      <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/support%203.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/finger%204.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.070526 -0.095898 -0.228400"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/support%203.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/support%203.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.070526 -0.095898 -0.228400"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/Index/support%203.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/support%203.1.STL" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.070526 -0.095898 -0.228400"/>
+      <geometry>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/support%203.2.STL" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="-0.070526 -0.095898 -0.228400"/>
+      <geometry>
+        <mesh filename="package://exoskeleton/meshes/fingers/Index/support%203.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <inertial>
@@ -524,13 +524,13 @@
     <visual>
       <origin xyz="-0.000999 -0.001000 -0.000999"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/a1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/a1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.000999 -0.001000 -0.000999"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/a1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/a1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <inertial>
@@ -543,37 +543,37 @@
     <visual>
       <origin xyz="-0.091890 -0.123512 -0.116798"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/a2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/a2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.091890 -0.123512 -0.116798"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/a2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/a2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.091890 -0.123511 -0.116798"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/b1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/b1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.091890 -0.123511 -0.116798"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/b1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/b1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.091890 -0.123512 -0.116799"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/c1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/c1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.091890 -0.123512 -0.116799"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/c1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/c1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <inertial>
@@ -586,61 +586,61 @@
     <visual>
       <origin xyz="-0.096924 -0.099633 -0.200999"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/a3.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/a3.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.096924 -0.099633 -0.200999"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/a3.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/a3.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.096924 -0.099633 -0.200999"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/a3.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/a3.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.096924 -0.099633 -0.200999"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/a3.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/a3.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.096924 -0.099632 -0.200999"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/b2.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/b2.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.096924 -0.099632 -0.200999"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/b2.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/b2.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.096924 -0.099632 -0.200999"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/b2.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/b2.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.096924 -0.099632 -0.200999"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/b2.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/b2.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.096924 -0.099632 -0.200999"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/c2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/c2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.096924 -0.099632 -0.200999"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/c2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/c2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <inertial>
@@ -653,85 +653,85 @@
     <visual>
       <origin xyz="-0.097993 -0.095897 -0.228399"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/a4.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/a4.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.097993 -0.095897 -0.228399"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/a4.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/a4.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.097993 -0.095897 -0.228399"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/a5.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/a5.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.097993 -0.095897 -0.228399"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/a5.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/a5.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.097993 -0.095897 -0.228399"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/a5.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/a5.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.097993 -0.095897 -0.228399"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/a5.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/a5.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.097993 -0.095898 -0.228399"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/b3.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/b3.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.097993 -0.095898 -0.228399"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/b3.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/b3.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.097993 -0.095898 -0.228399"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/b3.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/b3.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.097993 -0.095898 -0.228399"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/b3.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/b3.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.097993 -0.095898 -0.228399"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/c3.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/c3.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.097993 -0.095898 -0.228399"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/c3.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/c3.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.097993 -0.095898 -0.228400"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/c4.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/c4.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.097993 -0.095898 -0.228400"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%202/c4.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%202/c4.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <inertial>
@@ -776,13 +776,13 @@
     <visual>
       <origin xyz="-0.000996 -0.001000 -0.000996"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/a1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/a1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.000996 -0.001000 -0.000996"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/a1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/a1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <inertial>
@@ -795,49 +795,49 @@
     <visual>
       <origin xyz="-0.125451 -0.123474 -0.128096"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/a2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/a2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.125451 -0.123474 -0.128096"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/a2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/a2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.125451 -0.123473 -0.128095"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/b1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/b1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.125451 -0.123473 -0.128095"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/b1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/b1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.125451 -0.123475 -0.128096"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/c1.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/c1.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.125451 -0.123475 -0.128096"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/c1.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/c1.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.125451 -0.123475 -0.128096"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/c1.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/c1.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.125451 -0.123475 -0.128096"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/c1.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/c1.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <inertial>
@@ -850,61 +850,61 @@
     <visual>
       <origin xyz="-0.123216 -0.099509 -0.199396"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/a3.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/a3.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.123216 -0.099509 -0.199396"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/a3.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/a3.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.123216 -0.099509 -0.199396"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/a3.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/a3.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.123216 -0.099509 -0.199396"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/a3.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/a3.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.123216 -0.099509 -0.199396"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/b2.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/b2.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.123216 -0.099509 -0.199396"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/b2.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/b2.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.123216 -0.099509 -0.199396"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/b2.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/b2.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.123216 -0.099509 -0.199396"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/b2.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/b2.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.123216 -0.099509 -0.199396"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/c2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/c2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.123216 -0.099509 -0.199396"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/c2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/c2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <inertial>
@@ -917,85 +917,85 @@
     <visual>
       <origin xyz="-0.125145 -0.098222 -0.227096"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/a4.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/a4.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.125145 -0.098222 -0.227096"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/a4.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/a4.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.125145 -0.098221 -0.227096"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/a5.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/a5.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.125145 -0.098221 -0.227096"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/a5.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/a5.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.125145 -0.098221 -0.227096"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/a5.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/a5.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.125145 -0.098221 -0.227096"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/a5.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/a5.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.125145 -0.098222 -0.227096"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/b3.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/b3.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.125145 -0.098222 -0.227096"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/b3.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/b3.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.125145 -0.098222 -0.227096"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/b3.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/b3.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.125145 -0.098222 -0.227096"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/b3.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/b3.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.125145 -0.098222 -0.227097"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/c3.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/c3.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.125145 -0.098222 -0.227097"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/c3.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/c3.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.125145 -0.098222 -0.227098"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/c4.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/c4.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.125145 -0.098222 -0.227098"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%203/c4.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%203/c4.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <inertial>
@@ -1040,13 +1040,13 @@
     <visual>
       <origin xyz="-0.000992 -0.001000 -0.000991"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/a1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/a1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.000992 -0.001000 -0.000991"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/a1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/a1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <inertial>
@@ -1059,49 +1059,49 @@
     <visual>
       <origin xyz="-0.144570 -0.108124 -0.149089"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/a2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/a2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.144570 -0.108124 -0.149089"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/a2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/a2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.144570 -0.108125 -0.149090"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/b1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/b1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.144570 -0.108125 -0.149090"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/b1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/b1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.144570 -0.108126 -0.149092"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/c1.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/c1.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.144570 -0.108126 -0.149092"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/c1.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/c1.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.144570 -0.108126 -0.149092"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/c1.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/c1.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.144570 -0.108126 -0.149092"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/c1.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/c1.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <inertial>
@@ -1114,61 +1114,61 @@
     <visual>
       <origin xyz="-0.149471 -0.099324 -0.196692"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/a3.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/a3.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.149471 -0.099324 -0.196692"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/a3.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/a3.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.149471 -0.099324 -0.196692"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/a3.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/a3.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.149471 -0.099324 -0.196692"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/a3.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/a3.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.149471 -0.099323 -0.196691"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/b2.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/b2.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.149471 -0.099323 -0.196691"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/b2.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/b2.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.149471 -0.099323 -0.196691"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/b2.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/b2.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.149471 -0.099323 -0.196691"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/b2.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/b2.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.149471 -0.099324 -0.196692"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/c2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/c2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.149471 -0.099324 -0.196692"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/c2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/c2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <inertial>
@@ -1181,85 +1181,85 @@
     <visual>
       <origin xyz="-0.152536 -0.098644 -0.224691"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/a4.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/a4.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.152536 -0.098644 -0.224691"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/a4.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/a4.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.152536 -0.098644 -0.224692"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/a5.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/a5.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.152536 -0.098644 -0.224692"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/a5.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/a5.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.152536 -0.098644 -0.224692"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/a5.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/a5.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.152536 -0.098644 -0.224692"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/a5.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/a5.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.152536 -0.098644 -0.224692"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/b3.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/b3.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.152536 -0.098644 -0.224692"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/b3.1.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/b3.1.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.152536 -0.098644 -0.224692"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/b3.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/b3.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.152536 -0.098644 -0.224692"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/b3.2.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/b3.2.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.152536 -0.098644 -0.224698"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/c3.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/c3.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.152536 -0.098644 -0.224698"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/c3.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/c3.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.152536 -0.098644 -0.224695"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/c4.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/c4.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="-0.152536 -0.098644 -0.224695"/>
       <geometry>
-        <mesh filename="file:///home/rahat/exoskeleton/meshes/fingers/finger%204/c4.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://exoskeleton/meshes/fingers/finger%204/c4.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <inertial>

@@ -2,45 +2,45 @@
 <mujoco model="exoskeleton_hand">
   <compiler angle="radian" />
   <asset>
-    <mesh name="BASE" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/BASE.STL" scale="0.001 0.001 0.001" />
-    <mesh name="WRIST STARP" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/WRIST STARP.STL" scale="0.001 0.001 0.001" />
-    <mesh name="a1" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/thumb/a1.STL" scale="0.001 0.001 0.001" />
-    <mesh name="a2" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/thumb/a2.STL" scale="0.001 0.001 0.001" />
-    <mesh name="b1" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/thumb/b1.STL" scale="0.001 0.001 0.001" />
-    <mesh name="c1.1" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/thumb/c1.1.STL" scale="0.001 0.001 0.001" />
-    <mesh name="c1.2" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/thumb/c1.2.STL" scale="0.001 0.001 0.001" />
-    <mesh name="a3.1" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/thumb/a3.1.STL" scale="0.001 0.001 0.001" />
-    <mesh name="a3.2" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/thumb/a3.2.STL" scale="0.001 0.001 0.001" />
-    <mesh name="a4.1" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/thumb/a4.1.STL" scale="0.001 0.001 0.001" />
-    <mesh name="a4.2" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/thumb/a4.2.STL" scale="0.001 0.001 0.001" />
-    <mesh name="b2.1" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/thumb/b2.1.STL" scale="0.001 0.001 0.001" />
-    <mesh name="b2.2" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/thumb/b2.2.STL" scale="0.001 0.001 0.001" />
-    <mesh name="c2" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/thumb/c2.STL" scale="0.001 0.001 0.001" />
-    <mesh name="c3" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/thumb/c3.STL" scale="0.001 0.001 0.001" />
-    <mesh name="INDEX 1" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/Index/INDEX 1.STL" scale="0.001 0.001 0.001" />
-    <mesh name="INDEX 2" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/Index/INDEX 2.STL" scale="0.001 0.001 0.001" />
-    <mesh name="finger 1.1" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/Index/finger 1.1.STL" scale="0.001 0.001 0.001" />
-    <mesh name="finger 1.2" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/Index/finger 1.2.STL" scale="0.001 0.001 0.001" />
-    <mesh name="support 1" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/Index/support 1.STL" scale="0.001 0.001 0.001" />
-    <mesh name="INDEX 3.1" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/Index/INDEX 3.1.STL" scale="0.001 0.001 0.001" />
-    <mesh name="INDEX 3.2" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/Index/INDEX 3.2.STL" scale="0.001 0.001 0.001" />
-    <mesh name="finger 2" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/Index/finger 2.STL" scale="0.001 0.001 0.001" />
-    <mesh name="support 2.1" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/Index/support 2.1.STL" scale="0.001 0.001 0.001" />
-    <mesh name="support 2.2" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/Index/support 2.2.STL" scale="0.001 0.001 0.001" />
-    <mesh name="INDEX 4" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/Index/INDEX 4.STL" scale="0.001 0.001 0.001" />
-    <mesh name="INDEX 5.1" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/Index/INDEX 5.1.STL" scale="0.001 0.001 0.001" />
-    <mesh name="INDEX 5.2" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/Index/INDEX 5.2.STL" scale="0.001 0.001 0.001" />
-    <mesh name="finger 3" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/Index/finger 3.STL" scale="0.001 0.001 0.001" />
-    <mesh name="finger 4" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/Index/finger 4.STL" scale="0.001 0.001 0.001" />
-    <mesh name="support 3.1" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/Index/support 3.1.STL" scale="0.001 0.001 0.001" />
-    <mesh name="support 3.2" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/Index/support 3.2.STL" scale="0.001 0.001 0.001" />
-    <mesh name="c1" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/finger 2/c1.STL" scale="0.001 0.001 0.001" />
-    <mesh name="a4" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/finger 2/a4.STL" scale="0.001 0.001 0.001" />
-    <mesh name="a5.1" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/finger 2/a5.1.STL" scale="0.001 0.001 0.001" />
-    <mesh name="a5.2" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/finger 2/a5.2.STL" scale="0.001 0.001 0.001" />
-    <mesh name="b3.1" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/finger 2/b3.1.STL" scale="0.001 0.001 0.001" />
-    <mesh name="b3.2" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/finger 2/b3.2.STL" scale="0.001 0.001 0.001" />
-    <mesh name="c4" content_type="model/stl" file="/home/rahat/exoskeleton/meshes/fingers/finger 2/c4.STL" scale="0.001 0.001 0.001" />
+    <mesh name="BASE" content_type="model/stl" file="../meshes/BASE.STL" scale="0.001 0.001 0.001" />
+    <mesh name="WRIST STARP" content_type="model/stl" file="../meshes/WRIST STARP.STL" scale="0.001 0.001 0.001" />
+    <mesh name="a1" content_type="model/stl" file="../meshes/fingers/thumb/a1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="a2" content_type="model/stl" file="../meshes/fingers/thumb/a2.STL" scale="0.001 0.001 0.001" />
+    <mesh name="b1" content_type="model/stl" file="../meshes/fingers/thumb/b1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="c1.1" content_type="model/stl" file="../meshes/fingers/thumb/c1.1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="c1.2" content_type="model/stl" file="../meshes/fingers/thumb/c1.2.STL" scale="0.001 0.001 0.001" />
+    <mesh name="a3.1" content_type="model/stl" file="../meshes/fingers/thumb/a3.1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="a3.2" content_type="model/stl" file="../meshes/fingers/thumb/a3.2.STL" scale="0.001 0.001 0.001" />
+    <mesh name="a4.1" content_type="model/stl" file="../meshes/fingers/thumb/a4.1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="a4.2" content_type="model/stl" file="../meshes/fingers/thumb/a4.2.STL" scale="0.001 0.001 0.001" />
+    <mesh name="b2.1" content_type="model/stl" file="../meshes/fingers/thumb/b2.1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="b2.2" content_type="model/stl" file="../meshes/fingers/thumb/b2.2.STL" scale="0.001 0.001 0.001" />
+    <mesh name="c2" content_type="model/stl" file="../meshes/fingers/thumb/c2.STL" scale="0.001 0.001 0.001" />
+    <mesh name="c3" content_type="model/stl" file="../meshes/fingers/thumb/c3.STL" scale="0.001 0.001 0.001" />
+    <mesh name="INDEX 1" content_type="model/stl" file="../meshes/fingers/Index/INDEX 1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="INDEX 2" content_type="model/stl" file="../meshes/fingers/Index/INDEX 2.STL" scale="0.001 0.001 0.001" />
+    <mesh name="finger 1.1" content_type="model/stl" file="../meshes/fingers/Index/finger 1.1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="finger 1.2" content_type="model/stl" file="../meshes/fingers/Index/finger 1.2.STL" scale="0.001 0.001 0.001" />
+    <mesh name="support 1" content_type="model/stl" file="../meshes/fingers/Index/support 1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="INDEX 3.1" content_type="model/stl" file="../meshes/fingers/Index/INDEX 3.1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="INDEX 3.2" content_type="model/stl" file="../meshes/fingers/Index/INDEX 3.2.STL" scale="0.001 0.001 0.001" />
+    <mesh name="finger 2" content_type="model/stl" file="../meshes/fingers/Index/finger 2.STL" scale="0.001 0.001 0.001" />
+    <mesh name="support 2.1" content_type="model/stl" file="../meshes/fingers/Index/support 2.1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="support 2.2" content_type="model/stl" file="../meshes/fingers/Index/support 2.2.STL" scale="0.001 0.001 0.001" />
+    <mesh name="INDEX 4" content_type="model/stl" file="../meshes/fingers/Index/INDEX 4.STL" scale="0.001 0.001 0.001" />
+    <mesh name="INDEX 5.1" content_type="model/stl" file="../meshes/fingers/Index/INDEX 5.1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="INDEX 5.2" content_type="model/stl" file="../meshes/fingers/Index/INDEX 5.2.STL" scale="0.001 0.001 0.001" />
+    <mesh name="finger 3" content_type="model/stl" file="../meshes/fingers/Index/finger 3.STL" scale="0.001 0.001 0.001" />
+    <mesh name="finger 4" content_type="model/stl" file="../meshes/fingers/Index/finger 4.STL" scale="0.001 0.001 0.001" />
+    <mesh name="support 3.1" content_type="model/stl" file="../meshes/fingers/Index/support 3.1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="support 3.2" content_type="model/stl" file="../meshes/fingers/Index/support 3.2.STL" scale="0.001 0.001 0.001" />
+    <mesh name="c1" content_type="model/stl" file="../meshes/fingers/finger 2/c1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="a4" content_type="model/stl" file="../meshes/fingers/finger 2/a4.STL" scale="0.001 0.001 0.001" />
+    <mesh name="a5.1" content_type="model/stl" file="../meshes/fingers/finger 2/a5.1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="a5.2" content_type="model/stl" file="../meshes/fingers/finger 2/a5.2.STL" scale="0.001 0.001 0.001" />
+    <mesh name="b3.1" content_type="model/stl" file="../meshes/fingers/finger 2/b3.1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="b3.2" content_type="model/stl" file="../meshes/fingers/finger 2/b3.2.STL" scale="0.001 0.001 0.001" />
+    <mesh name="c4" content_type="model/stl" file="../meshes/fingers/finger 2/c4.STL" scale="0.001 0.001 0.001" />
   </asset>
   <worldbody>
     <geom pos="0 0 0" quat="1 0 0 0" type="mesh" mesh="BASE" />
